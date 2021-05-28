@@ -1,0 +1,82 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.banner {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.post {
+  max-width: 720px;
+  margin: 5rem auto 0;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 5rem;
+  }
+
+  .about {
+    margin-top: 1.5rem;
+    display: flex;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      color: var(--info);
+      font-size: 0.875rem;
+
+      svg {
+        width: 1.125rem;
+        height: 1.125rem;
+        margin-right: 0.5rem;
+      }
+
+      & + div {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+
+  .postContent {
+    h2 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin: 4rem 0 3rem;
+    }
+
+    p, span, a, ul {
+      font-size: 1.125rem;
+      line-height: 1.8rem;
+      margin: 1.8rem 0;
+    }
+
+    p {
+      color: var(--body);
+      font-weight: 400;
+      text-align: justify;
+    }
+
+    a {
+      color: var(--highlight);
+    }
+
+    strong {
+      font-weight: 700;
+      color: var(--body);
+    }
+
+    ul {
+      padding-left: 1.5rem;
+
+      li {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
